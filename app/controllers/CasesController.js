@@ -28,6 +28,7 @@ function _drawActiveCase() {
     return
   }
 
+  // NOTE if your case doesn't need to be unlocked do you need these next lines?
   if (activeCase.unlocked) {
     // if there is a case and it's unlocked
     setHTML('active-case', activeCase.ActiveTemplate)
